@@ -154,6 +154,7 @@ class IranPayment
             self::PAYPING,
             self::NOVINOPAY,
             self::DIGIPAY,
+            self::TARA,
         ];
 
         if (app('config')->get('app.env', 'production') !== 'production' &&
